@@ -1,5 +1,5 @@
 {
-  "name": "svelte-app",
+  "name": "nwp_components",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
@@ -18,5 +18,9 @@
   },
   "dependencies": {
     "sirv-cli": "^1.0.0"
-  }
+  },
+  "description": "Nwp Components Libary",
+  "main": "rollup.config.js",
+  "author": "",
+  "license": "ISC"
 }

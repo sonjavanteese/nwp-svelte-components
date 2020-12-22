@@ -1,9 +1,11 @@
-  <a href="https://github.com/sonjavanteese/nwp-svelte-components" target="_blank">Github Link</a>
+ 
+ 
+ <a href="https://github.com/sonjavanteese/nwp-svelte-components" target="_blank">Github Link</a>
  
  
 #### Collection Bundle of favorits Components
  
- 
+ ![img](nwp-svelte-tabs-comp.png)
  
  
  

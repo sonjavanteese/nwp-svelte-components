@@ -1,16 +1,17 @@
-# nwp-svelte-components
- **Nwp Components Libary**
+  <a href="https://github.com/sonjavanteese/nwp-svelte-components" target="_blank">Github Link</a>
  
  
- 
- #### Collection Bundle of favorits Components
- 
+#### Collection Bundle of favorits Components
  
  
  
  
- ## Svelte-Tabs 
+ 
+## Svelte-Tabs 
+
+
  <a href="https://github.com/joeattardi/svelte-tabs" target="_blank">Origin</a>
+ 
  
 > `'./nwp/svelte-tabs/index.js'`
 
@@ -66,7 +67,7 @@ export { default as TabPanel } from './TabPanel.svelte';
 
 ![Navaid Router with Tabs][image_ref_5oyhrhv9]
 
-Getting Started
+*Getting Started*
 
 ```bash
 npm i --save svelte-navaid

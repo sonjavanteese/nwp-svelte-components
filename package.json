@@ -17,7 +17,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "sirv-cli": "^1.0.0",
+    "svelte-navaid": "^0.1.1"
   },
   "description": "Nwp Components Libary",
   "main": "rollup.config.js",

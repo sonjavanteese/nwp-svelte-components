@@ -3,7 +3,17 @@
 	import Router from "./nwp/navaid/Router.svelte";
 	import Route from "./nwp/navaid/Route.svelte";
 	import Link from "./nwp/navaid/Link.svelte";
+	import { AppWrapper, AppBar, AppDrawer } from "./nwp/appbar/";
 	export let name;
+	let isOpen = false;
+	let isMenu = false;
+	const sb = true;
+	function toggleSb() {
+    isOpen = !isOpen;
+    }
+    function toggleMenu() {
+      isMenu = !isMenu;
+    }
 </script>
 
 <style>
@@ -26,16 +36,16 @@
 			max-width: none;
 		}
 	}
+	
 </style>
 
-<section>
-	<Router>
-		<h1>Hello World!</h1>
-
-		<Link href="/">Home</Link>
-		|
-		<Link href="foo/sub1">Foo</Link>
-
+<Router>
+	<AppWrapper>
+		<AppDrawer bind:isOpen />
+		<AppBar {sb} bind:isOpen bind:isMenu >
+			<Link href="/" class="appbar-item">Start</Link>
+			<Link href="foo/sub1" class="appbar-item">Foo</Link>
+		</AppBar>
 		<Route path="/">
 			<h2>Home</h2>
 			<section name="Tabs">
@@ -109,5 +119,5 @@
 		<Route>
 			<h2>Page Not Found</h2>
 		</Route>
-	</Router>
-</section>
+	</AppWrapper>
+</Router>

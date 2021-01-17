@@ -1,0 +1,11 @@
+import { writable } from 'svelte/store';
+export const theme = writable('light');
+export const d_hsp1 = writable([]);
+export const d_hsp2 = writable([]);
+export const d_file1 = writable([]);
+export const d_file2 = writable([]);
+export const d_bb1 = writable([]);
+export const d_bb2 = writable([]);
+export const d_icon = writable({});
+export const d_app = writable([]);
+// import { d_file1, d_file2, d_hsp1, d_hsp2, d_icon, d_bb1, d_bb2, d_app } from "../store";
